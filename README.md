@@ -8,25 +8,25 @@ The goal is to connect the stochastic PDEs that motivate my research with numeri
 
 The stochastic heat equation considered throughout the later notebooks has the form
 
-$$
+```math
 \partial_t u(t,x)
 =
 \kappa \Delta u(t,x)
 +
-\sigma u(t,x)\xi(t,x),
-$$
+\sigma u(t,x)\xi(t,x).
+```
 
 on a one-dimensional periodic domain, where $\xi$ denotes the stochastic forcing.
 
 The project also considers spatially correlated Gaussian noise with covariance
 
-$$
+```math
 Q(x,y)
 =
 \exp\left(
 -\frac{d(x,y)}{\ell}
 \right),
-$$
+```
 
 where $d(x,y)$ is the periodic distance and $\ell$ controls the correlation length.
 
